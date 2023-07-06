@@ -1,0 +1,15 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "compilerOptions": {},
+  "tasks": {
+    "dev": "deno run --allow-read --allow-net --allow-env --watch src/index.ts",
+    "start": "deno run --allow-read --allow-net --allow-env src/index.ts"
+  },
+  "lint": {
+    "include": ["src/"],
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"]
+    }
+  }
+}
