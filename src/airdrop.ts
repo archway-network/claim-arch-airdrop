@@ -5,8 +5,8 @@ import { toUtf8 } from "npm:@cosmjs/encoding";
 
 import { MsgExecuteContract } from "npm:cosmjs-types/cosmwasm/wasm/v1/tx.js";
 
-const airdropContractAddress = "archway1qw38y45nkyhdvmlz6kfle074hg55untt6sc378k400p0lyhfzeyqtk4hta";
-const feeGranterAddress = "archway1rev2n7edzn6l84k37dhnhs0m9wqlveezvwjj38";
+const airdropContractAddress = "archway1qxggkw5v33yefppsckd0ttentdhwuqwn2gppnw5dwldtekytvm3szhqvez";
+const feeGranterAddress = "archway1kc469yvxas245rh2r02vu5r39l9z6xcn2x4qxmr5lt49v5z7rkkqn7eq3g";
 
 export enum AirdropAction {
   Connect = "connect",
