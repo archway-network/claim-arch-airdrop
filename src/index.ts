@@ -10,10 +10,10 @@ import { AirdropAction, prepareAirdropClaim } from "./airdrop.ts";
 import { getWalletWithAccount } from "./wallet.ts";
 
 const archwayd = {
-  chainId: "constantine-3",
-  endpoint: "https://rpc.constantine.archway.tech:443",
+  chainId: "archway-1",
+  endpoint: "https://rpc.mainnet.archway.io:443",
   prefix: "archway",
-  denom: "aconst",
+  denom: "aarch",
 };
 
 async function claim(action: AirdropAction) {
